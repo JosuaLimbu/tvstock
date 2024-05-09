@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-function processLogin($role, $username, $password, $con) {
+function processLogin($role, $username, $password, $con)
+{
     $sql = "SELECT * FROM tbl_account WHERE role=? AND BINARY username=? AND password=?";
     $stmt = $con->prepare($sql);
     $stmt->bind_param("sss", $role, $username, $password);
