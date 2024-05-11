@@ -26,7 +26,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     <title>Customer</title>
     <link rel="icon" type="image/png" href="../../img/tvstock.png">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="tvstock.css">
+    <link rel="stylesheet" href="customer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
