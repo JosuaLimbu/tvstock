@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="overlay">
                 <div class="overlay-panel overlay-right">
                     <img src="img/tvstock.png" alt="">
-                    <p class="textright">TVStock</p>
+                    <p class="textright">UNKLAB</p>
                 </div>
             </div>
         </div>
